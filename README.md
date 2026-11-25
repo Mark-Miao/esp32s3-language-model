@@ -126,6 +126,8 @@ See [DATA.md](DATA.md) for sources, licenses, and handling obligations.
 - **Slim-LCCC** — Apache-2.0, derived from LCCC
 - **Muice** — CC-BY-NC-4.0, non-commercial, opt-in only
 
+Datasets may contain personal information; do not redistribute them.
+
 ## Limitations
 
 - 2.5M parameters learn the *shape* of short Chinese chat, not knowledge. The
@@ -145,15 +147,93 @@ must offer the complete corresponding source under the same license.
 
 **Intended use:** research, education, and hobbyist experimentation.
 
-**Prohibited uses:** generating illegal content; fraud, scams, or deceptive
-impersonation; deepfakes of real people; harassment; surveillance; medical,
-legal, or financial advice; safety-critical or production systems.
+**Legal instruments:** the laws, administrative regulations, and departmental
+rules cited in this section are those of the People's Republic of China.
 
-**No warranty.** The software and any models you train are provided "as is",
+**Mandatory requirements.** By using this software you must comply with the
+following obligations, and you must not:
+
+- generate, reproduce, publish, or distribute illegal content — including
+  content that endangers national security, incites subversion, or promotes
+  terrorism, extremism, obscenity, gambling, violence, fraud, or disinformation
+  — or violate the Provisions on the Governance of the Online Information
+  Content Ecosystem;
+- infringe the reputation, portrait, privacy, or personal-information rights of
+  others, or unlawfully collect, use, process, or transfer personal information;
+- impersonate a real person, or create deep-synthesis content without the
+  prominent labels required by the Provisions on the Administration of Deep
+  Synthesis of Internet Information Services and the Measures for Labeling
+  AI-Generated Synthetic Content;
+- use the software for telecom fraud, false advertising, misleading marketing,
+  harassment, stalking, surveillance, or discrimination;
+- harm minors, including by producing or distributing online information that
+  harms their physical or mental health (Law on the Protection of Minors,
+  network-protection chapter);
+- train or distribute models on illegally obtained or unauthorized corpora.
+
+**Disclaimer.** The software and any models you train are provided "as is",
 without warranty of any kind. You are solely responsible for the data you use,
-the models you train, and the content they generate, including compliance with
-copyright, privacy, and other applicable law. Datasets may contain personal
-information; do not redistribute them.
+the models you train, and the content you generate. You must:
+
+- comply with the Interim Measures for the Administration of Generative
+  Artificial Intelligence Services when providing generative AI services to the
+  public, including security assessment and content labeling;
+- label generated content as required by the Provisions on the Administration
+  of Deep Synthesis of Internet Information Services and the Measures for
+  Labeling AI-Generated Synthetic Content;
+- complete algorithm filing under the Provisions on the Administration of
+  Algorithm-Generated Recommendations for Internet Information Services if your
+  service has public-opinion attributes or social-mobilization capacity
+  (Article 17 of the Interim Measures imposes the same requirement);
+- comply with the Provisions on the Governance of the Online Information
+  Content Ecosystem and the Law on the Protection of Minors, and refrain from
+  producing or distributing illegal or harmful information;
+- comply with the Cybersecurity Law, the Data Security Law, the Personal
+  Information Protection Law, and the Copyright Law when processing data; do
+  not use data that was unlawfully obtained or unauthorized, or that infringes
+  the rights of others;
+- note that serious violations may constitute offences under Articles 217
+  (copyright infringement), 246 (insult and defamation), 253-1 (infringement of
+  citizens' personal information), 266 (fraud), 286-1 (refusal to perform
+  information-network security obligations), 287-1 and 287-2 (illegal use of
+  information networks; aiding information-network criminal activity), and
+  363/364 (obscene materials) of the Criminal Law;
+- understand that this repository distributes no data and no models; the legal
+  consequences of training and deployment rest with the user;
+- treat this section as a compliance reminder, not legal advice; consult a
+  qualified lawyer for your specific situation.
+
+**Basis for limiting liability**
+
+The authors provide source code only, under AGPL-3.0. They do not provide a
+generative AI service, do not distribute training data or models, and do not
+operate any network platform. Accordingly:
+
+- Article 2 of the Interim Measures for the Administration of Generative
+  Artificial Intelligence Services applies to providers that offer generative
+  AI services to the public, and states that those who do not offer such
+  services to the public are not subject to it. This project provides no such
+  service; if you train, deploy, and offer it to the public, you are the
+  provider and must perform the corresponding obligations yourself.
+- Article 1165 of the Civil Code adopts the fault-liability principle. The
+  authors do not take part in your data collection, training, deployment, or
+  publication, and are not at fault for any resulting damage.
+- The Data Security Law and the Personal Information Protection Law place
+  obligations on data handlers. When you process data, you are the handler and
+  must establish a lawful basis and fulfil notice, consent, and other duties.
+- Under the Copyright Law, you must verify the rights status of your training
+  corpus and generated content and bear the consequences.
+- Criminal liability requires the actor to commit a criminal act (Article 13 of
+  the Criminal Law). The authors commit no such act; users who employ this
+  project to commit an offence bear criminal liability themselves.
+- Sections 15 and 16 of AGPL-3.0 disclaim warranties and limit liability;
+  section 17 governs their interpretation.
+- Under Article 506 of the Civil Code, clauses that exclude liability for
+  personal injury, or for property loss caused intentionally or by gross
+  negligence, are void. Nothing in this section excludes the authors' liability
+  for intent or gross negligence.
+
+If you do not accept these terms, do not use this repository.
 
 ESP32 and ESP32-S3 are trademarks of Espressif Systems. This project is not
 affiliated with or endorsed by Espressif. ModelScope is a service of Alibaba
