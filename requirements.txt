@@ -1,0 +1,6 @@
+# CPU-only PyTorch is enough; install it with the index for your platform:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch>=2.4
+numpy>=1.26
+tokenizers>=0.20
+ijson>=3.2

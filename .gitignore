@@ -1,0 +1,25 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Data and training artifacts (never commit these)
+data/
+models/
+checkpoints/
+checkpoints_*/
+*.pt
+*.bin
+*.safetensors
+dist/
+
+# ESP-IDF build outputs
+firmware/build/
+firmware/sdkconfig
+firmware/sdkconfig.old
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
